@@ -1,7 +1,12 @@
+import Link from 'next/link'
+
 export default () => (
   <>
     <div className="hero">
     <h1 className="title">Offline Next.js with Now 1.0</h1>
+    <Link href="page1">
+      <a>Hola</a>
+    </Link>
     </div>
 
     <style jsx>{`
